@@ -1,3 +1,8 @@
 body {
-    background-color: aqua;
+    background-image: url('C:/Users/felipe leal/Downloads/backGabbw.jpg'); /* Caminho absoluto */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
 }
