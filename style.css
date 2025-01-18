@@ -1,8 +1,8 @@
 body {
-    background-image: url('C:/Users/felipe leal/Downloads/backGabbw.jpg'); /* Caminho absoluto */
+    background-image: url('images/backGabbw.jpg'); /* Caminho relativo para a imagem */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh; /* Altura da tela inteira */
     margin: 0;
 }
