@@ -1,8 +1,80 @@
+/* Configuração do fundo */
 body {
-    background-image: url('images/backGabbw.jpg'); /* Caminho relativo para a imagem */
+    background-image: url('images/backGabbw.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Altura da tela inteira */
+    height: 100vh;
     margin: 0;
+}
+
+/* Redes sociais no canto superior direito */
+ul.box-redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    gap: 10px; /* Espaçamento entre os ícones */
+}
+
+ul.box-redes-sociais li {
+    list-style: none;
+}
+
+ul.box-redes-sociais li a {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 2px solid #eaeaea;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.box-redes-sociais li a .icon {
+    color: #262626;
+    transition: 0.3s;
+}
+
+ul.box-redes-sociais li a:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+ul.box-redes-sociais li a:hover .icon {
+    color: #fff;
+    transform: scale(1.2);
+}
+
+/* Estilo para cada rede */
+ul.box-redes-sociais li.instagram a {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+ul.box-redes-sociais li.whatsapp a {
+    background: #25D366;
+}
+
+ul.box-redes-sociais li.email a {
+    background: #0072c6;
+}
+
+h1 {
+    background: #eaeaea;
+}
+
+h2 {
+    color: #F0F0F0; /* Escolha a cor que desejar */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Adiciona uma leve sombra para destacar o texto */
+}
+
+h3 {
+    color: #F0F0F0; /* Escolha a cor que desejar */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Adiciona uma leve sombra para destacar o texto */
 }
